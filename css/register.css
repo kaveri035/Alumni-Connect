@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  box-sizing: border-box;
+  color: #050119;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Wrapper for centering */
+.register_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container box */
+.register_container {
+  background-color: #ffffff;
+  max-width: 450px;
+  width: 90%;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.register_container h1 {
+  font-size: 28px;
+  color: #050119;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.register_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs and selects */
+.register_form input,
+.register_form select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.3s;
+  background-color: #f9f9f9;
+}
+
+.register_form input:focus,
+.register_form select:focus {
+  border-color: #050119;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Button */
+.register_form button {
+  background-color: #050119;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+transition: background 0.3s;
+}
+
+.register_form button:hover {
+  background-color: #2e3192;
+}
+
+/* Links */
+.register_form a {
+  color: #050119;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.register_form a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+how-to-register {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+

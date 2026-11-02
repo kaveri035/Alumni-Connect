@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  color: #050119 !important; /* Force SGBIT Blue text */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #f4f6f9 !important; /* Force light background */
+}
+
+/* Outer wrapper */
+.login_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Use a slightly different height declaration to be robust */
+  min-height: 100vh !important; 
+  padding: 20px 0; /* Add padding for small screens */
+}
+
+/* Login box */
+.login_container {
+  background-color: #ffffff !important; /* Force white box */
+  max-width: 400px;
+  width: 90%;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15) !important; /* Slightly stronger shadow */
+  text-align: center;
+}
+
+/* Heading */
+.login_container h1 {
+  font-size: 28px;
+  color: #050119;
+  margin-bottom: 30px;
+}
+
+/* Form fields and Inputs */
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login_form select,
+.login_form input {
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.3s;
+  background-color: #f9f9f9 !important;
+}
+
+.login_form select:focus,
+.login_form input:focus {
+  border-color: #050119 !important;
+  background-color: #fff !important;
+  outline: none;
+}
+
+/* Buttons */
+.login_form button {
+  background-color: #050119 !important; /* Force SGBIT Blue button */
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login_form button:hover {
+  background-color: #2e3192 !important;
+}
+
+/* Links */
+.login_form a {
+  color: #050119;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.login_form a:hover {
+  color: red;
+  text-decoration: underline;
+}
